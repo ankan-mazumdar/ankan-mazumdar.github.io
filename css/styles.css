@@ -10970,3 +10970,61 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+/* Add these styles to your styles.css file */
+/* Remove default padding and margin from navigation */
+#sideNav {
+    padding: 0; /* Remove padding from the whole side navigation */
+}
+
+#sideNav .navbar-nav {
+    padding: 0; /* Remove padding from the nav list */
+    margin: 0; /* Remove margin from the nav list */
+    list-style: none; /* Ensure no bullets or additional styling */
+}
+
+#sideNav .navbar-nav .nav-item {
+    margin: 0; /* Remove margin from nav items */
+    padding-left: 10px; /* Adjust padding to create space */
+}
+
+#sideNav .navbar-nav .nav-link {
+    padding-left: 10px; /* Ensure links are properly aligned */
+}
+
+/* Ensure that the navigation container does not add unwanted padding */
+.navbar-collapse {
+    padding: 0; /* Remove padding */
+}
+
+/* Specific to collapse component */
+.collapse {
+    padding: 0; /* Remove padding from collapse component */
+    margin: 0; /* Remove margin from collapse component */
+}
+
+/* Adjust margin and padding for the entire navbar */
+.navbar {
+    padding: 0 10px; /* Small padding to reduce left margin */
+}
+
+
+/* Add these styles to your styles.css file */
+.dev-icons .fa-python {
+    color: #3776AB; /* Python Blue */
+}
+
+.dev-icons .fa-java {
+    color: #007396; /* Java Blue */
+}
+
+.dev-icons .fa-js-square {
+    color: #F7DF1E; /* JavaScript Yellow */
+}
+
+.dev-icons .fa-docker {
+    color: #2496ED; /* Docker Blue */
+}
+
+.dev-icons .fa-aws {
+    color: #FF9900; /* AWS Orange */
+}

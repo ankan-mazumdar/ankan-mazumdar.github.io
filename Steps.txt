@@ -1,0 +1,33 @@
+Create one folder , create your GH repp with ankan-mazumdar.github.io, then clone it
+
+PS C:\Users\Ankan Mazumdar\Downloads\Projects\Portfolio\gh\ankan-mazumdar.github.io> git clone https://github.com/ankan-mazumdar/ankan-mazumdar.github.io.git
+
+
+choose the tmplate and put it inside local cloned folder and push it
+
+
+PS C:\Users\Ankan Mazumdar\Downloads\Projects\Portfolio\gh\ankan-mazumdar.github.io> git add .
+warning: in the working copy of 'css/styles.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'index.html', LF will be replaced by CRLF the next time Git touches it   
+warning: in the working copy of 'js/scripts.js', LF will be replaced by CRLF the next time Git touches it
+PS C:\Users\Ankan Mazumdar\Downloads\Projects\Portfolio\gh\ankan-mazumdar.github.io> git commit -m "first"
+[main (root-commit) 9e23251] first   
+ 5 files changed, 11231 insertions(+)
+ create mode 100644 assets/img/favicon.ico
+ create mode 100644 assets/img/profile.jpg
+ create mode 100644 css/styles.css
+ create mode 100644 index.html
+ create mode 100644 js/scripts.js
+PS C:\Users\Ankan Mazumdar\Downloads\Projects\Portfolio\gh\ankan-mazumdar.github.io> git push -u origin main
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.  
+Delta compression using up to 4 threads
+Compressing objects: 100% (8/8), done. 
+Writing objects: 100% (11/11), 247.47 KiB | 6.87 MiB/s, done.
+Total 11 (delta 0), reused 0 (delta 0), pack-reused 0        
+To https://github.com/ankan-mazumdar/ankan-mazumdar.github.io.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+
+Then check settings --> pages for link  and actions for pages and deployment.
